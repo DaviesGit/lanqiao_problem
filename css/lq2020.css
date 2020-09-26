@@ -1,0 +1,108 @@
+/* CSS Document */
+
+body {
+	background-color:#fff;
+}
+
+.navigation {
+	margin-bottom: 0px;
+	border-bottom:#e6e6e6 solid 1px;
+}
+
+.main {
+	padding: 50px 0;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 21px;
+	min-height: 500px;
+}
+
+.link a {
+	text-decoration: none;
+}
+
+.pagination {
+	margin: 0 0 0 0;
+}
+
+.pagination>li>a, .pagination>li>span {
+	border:none;
+	background-color: transparent;
+	color: #a0a4b1;
+}
+.pagination>li>a:hover {
+	color: #1677cb;
+	font-weight:bold;
+}
+.pagination>li>a b, .pagination>li>span b {
+	color: #1677cb;
+}
+
+.panel.panel-lanqiao {
+	box-shadow: 0 0 0 rgba(0,0,0,0.05);
+}
+
+.panel-lanqiao .panel-heading {
+}
+
+.panel-lanqiao .panel-heading .panel-title {
+	font-family: Î¢ÈíÑÅºÚ, "Microsoft YaHei";
+	font-size: 18px;
+	white-space: normal;
+	font-weight: bold;
+}
+
+.table.kvtab {
+}
+
+.table.kvtab > tbody > tr > th {
+	text-align:right;
+	font-weight:bold;
+}
+
+.table.kvtab > tbody > tr > td {
+	text-align:left;
+}
+
+.table > tbody > tr > th, .table > thead > tr > th {
+	font-weight:bold;
+}
+
+.sec_header, .pdsec {
+	padding-top: 20px;
+	font-size: 18px;
+	color:#313131;
+	line-height: 55px;
+	overflow: hidden;
+}
+.sec_cont, .pdcont {
+	font-size: 15px;
+	color:#666;
+	line-height: 24px;
+	padding-bottom: 40px;
+	border-bottom: #e6e6e6 solid 1px;
+}
+
+.sec_text, .pddata {
+	font-size: 15px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	color:#666;
+	line-height: 24px;
+	padding-bottom: 40px;
+	border-bottom: #e6e6e6 solid 1px;
+}
+
+.sec_note {
+	border: dashed 1px;
+	margin: 24px 24px 8px 24px;
+	padding: 16px;
+}
+
+.badge.success{background-color:#468847}
+.badge.danger{background-color:#b94a48}
+.badge.warning{background-color:#f89406}
+.badge.info{background-color:#3a87ad}
+.badge.inverse{background-color:#fff}
+.badge.default{background-color:#333}
+.badge.vip{background-color:#b94a48}

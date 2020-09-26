@@ -1,0 +1,108 @@
+#column_left {
+    background-color: #515151;
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: sticky;
+    top: 2vh;
+}
+
+#column_left li {
+    display: block;
+    width: 100%;
+}
+
+#column_left > ul > li {
+    background-color: #000;
+}
+
+#column_left > ul > li > a {
+    display: block;
+    font-size: 1rem;
+}
+
+.nav-list.sublist > li {
+    background-color: #515151;
+    border-left: #c5c5c5 solid 5px;
+}
+
+.nav-list.sublist > li > a {
+    color: #fff;
+    padding: 3px 20px;
+}
+
+.nav-list.sublist > li > a > div {
+    padding: 3px;
+}
+
+.nav-list.sublist > li > a > div > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-list.sublist > li > a > .prefix {
+    color: #C4C4C4;
+    font-size: 0.8rem;
+}
+
+.nav-list.sublist > li > a > .prefix > div:first-child {
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.nav-list.sublist > li > a > .name {
+    color: #cccc;
+    font-size: 0.7rem;
+}
+
+.nav-list.sublist > li > a > .name > div:first-child {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    color: #C4C4C4;
+    font-size: 14px;
+    border-bottom: 1px solid #585858;
+}
+
+.nav-list > li > a:hover {
+    background-color: #444444;
+}
+
+
+#problem_info > h3 > span,
+#problem_info > div > span {
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+#problem_info > h3 > span > span,
+#problem_info > div > span > span {
+    font-size: 1rem;
+    color: #888;
+    padding: 0px 5px;
+    font-weight: bold;
+}
+
+#problem_info > h3 > span{
+    padding-left:30px;
+}
+
+#problem_info > h3 > span > span{
+    padding-left:30px;
+}
+
+#content {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.nav-list > li > a.active_item{
+    background-color:#333;
+}
